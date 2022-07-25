@@ -1,0 +1,10 @@
+<!--pages/user/user.wxml-->
+
+<view class="content">
+  <textarea placeholder="感谢您的建议" class="feedback" bindinput="inputFeedback" maxlength="300">
+
+  </textarea>
+
+  <van-button  type="primary" bindtap="commit" color="#ABC270" round block>提交</van-button>
+  <van-toast id="van-toast" />
+</view>

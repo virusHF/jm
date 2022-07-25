@@ -1,0 +1,69 @@
+.info-panel {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  height: 300rpx;
+  background-color: var(--primaryColor);
+  padding-top: 80rpx;
+  margin-bottom: 32rpx;
+}
+
+.icon {
+  margin-right: 16rpx;
+}
+
+.avatar {
+  width: 140rpx;
+  height: 140rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.nick-name {
+  margin-bottom: 4rpx;
+}
+
+.id {
+  color: var(--accentColor);
+}
+
+.my {
+  display: flex;
+  flex-direction: column;
+}
+
+.invitePeople::after {
+  border: none;
+}
+
+.invitePeople {
+  position: static !important;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.point {
+  color: red;
+}
+
+.version {
+  text-align: center;
+  margin-top: 32rpx;
+}
+
+button::after {
+  border: none;
+}
+
+button {
+  position: static !important;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}

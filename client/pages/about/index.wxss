@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  align-items: center;
+  margin-top: 300rpx;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon {
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  margin-bottom: 32rpx;
+}

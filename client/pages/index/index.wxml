@@ -1,0 +1,13 @@
+<!--pages/user/user.wxml-->
+<wxs src="../../wxs/tools.wxs" module="tools" />
+<view class="container">
+  <van-search value="{{searchKey}}" shape="round" background="#ABC270" placeholder="请输入梦境关键词"   bind:search="onSearch" bind:change="onChange"/>
+  <van-grid column-num="3">
+    <van-grid-item icon="{{item.icon}}" text="{{item.name}}" wx:for="{{listData}}" wx:key="list" link-type="navigateTo"
+      url="/pages/tag/index?type={{item.type}}&title={{item.name}}">
+    </van-grid-item>
+  </van-grid>
+
+  <van-toast id="van-toast" />
+  <van-dialog id="van-dialog" />
+</view>

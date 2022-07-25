@@ -1,0 +1,6 @@
+<!--pages/user/user.wxml-->
+
+  <view class="content">
+    <image src="../../images/ic_launch.png" class="icon"></image>
+    <text>Version:1.0.0</text>
+  </view>

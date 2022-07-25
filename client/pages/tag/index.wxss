@@ -1,0 +1,15 @@
+.tag-panel {
+  margin-top: 16rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.tag {
+  margin-right: 8rpx;
+  margin-top: 16rpx;
+}
+

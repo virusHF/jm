@@ -1,0 +1,14 @@
+.content {
+  padding: 32rpx;
+}
+
+.feedback {
+  background: white;
+  width: auto;
+  border-radius: 38rpx;
+  border-color: #ABC270;
+  border-width: 2rpx;
+  border-style: solid;
+  padding: 16rpx;
+  margin-bottom: 32rpx;
+}

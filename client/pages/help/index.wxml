@@ -1,0 +1,11 @@
+<!--pages/user/user.wxml-->
+
+<view class="content">
+  <view class=".helpPanel"> 
+    <text class=".help">[1.0.0]:
+    1.增加梦境分类的功能
+    2.增加梦境搜索的功能
+    3.增加梦境收藏和分享的功能
+  </text></view>
+ 
+</view>

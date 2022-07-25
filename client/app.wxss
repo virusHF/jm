@@ -1,0 +1,49 @@
+/**app.wxss**/
+@import 'style/weui.wxss';
+@import 'style/weui.wxss';
+
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+  --primaryColor: #ABC270;
+  --accentColor: #FEC868;
+}
+
+view,
+image,
+text,
+navigator {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-text {
+  font-size: 32rpx;
+  color: #473C33;
+  font-weight: 550;
+  display: block;
+}
+
+.main-text-light {
+  font-size: 32rpx;
+  color: white;
+  font-weight: 550;
+  display: block;
+}
+
+.second-text {
+  font-size: 28rpx;
+  color: #666;
+  font-weight: 400;
+  display: block;
+}
+
+.third-text {
+  font-size: 24rpx;
+  color: #666;
+  font-weight: 400;
+  display: block;
+}

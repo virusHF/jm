@@ -1,0 +1,9 @@
+<view>
+  <van-search value="{{searchKey}}" shape="round" background="#ABC270" placeholder="请输入梦境关键词" bind:search="onSearch"
+    bind:change="onChange" />
+  <view class="tag-panel">
+    <van-tag class="tag" round type="warning" wx:for="{{tags}}" wx:key="list" size="large" bindtap="click"
+      data-key="{{item}}">{{item}}</van-tag>
+  </view>
+
+</view>

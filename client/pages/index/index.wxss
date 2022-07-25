@@ -1,0 +1,116 @@
+.cells {
+  padding-left: 32rpx;
+  padding-right: 32rpx;
+  margin-bottom: 64rpx;
+}
+
+.cell {
+  background-color: #fff;
+  padding: 24rpx;
+  margin-bottom: 16rpx;
+  border-radius: 6rpx;
+}
+
+.triviaContent {
+  margin-left: 16rpx;
+  font-size: 32rpx;
+  display: block;
+}
+
+.articleTitle {
+  margin-left: 16rpx;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+
+.articleContent {
+  margin-left: 16rpx;
+  margin-top: 16rpx;
+  font-size: 32rpx;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;       
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.createTime {
+  margin-left: 16rpx;
+  display: block;
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #999
+}
+
+
+.remindTime {
+  margin-left: 16rpx;
+  display: block;
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #000
+}
+
+.remindFinished {
+  margin-left: 16rpx;
+  display: block;
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #46A3FF
+}
+
+.creator {
+  margin-left: 16rpx;
+  display: block;
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #666
+}
+
+text{
+  word-break: keep-all;
+  word-wrap: break-word;
+  }
+
+  .button-hover {
+    opacity: 0.9;
+    transform: scale(0.95, 0.95);
+  }
+
+  .edit_button {
+    position: fixed;
+    width: 100rpx;
+    height: 100rpx;
+    bottom: 200rpx;
+    right: 40rpx;
+    overflow: auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5852C;
+    z-index: 9999;
+  }
+  
+  .edit_img {
+    width: 60rpx;
+    height: 60rpx;
+    overflow: auto;
+  }
+
+  .swipe-cell-right {
+    display: inline-block;
+    background-color: #F00;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60px;
+  }
+
+  .search {
+    padding-left: 32rpx;
+    padding-right: 32rpx;
+    padding-bottom: 16rpx;
+  }

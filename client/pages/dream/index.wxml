@@ -1,0 +1,22 @@
+<view>
+  <van-search value="{{searchKey}}" shape="round" background="#ABC270" placeholder="请输入梦境关键词" bind:search="onSearch"
+    bind:change="onChange" />
+  <view class="item-info" wx:for="{{data}}" wx:if="{{!showEmpty}}" wx:key="list">
+    <view><text class="main-text hint">{{item.name}}</text></view>
+    <view>
+      <rich-text class="second-text desc" nodes="{{item.content}}"></rich-text>
+    </view>
+  </view>
+  <van-empty description="暂无结果" wx:if="{{showEmpty}}" />
+
+  <view wx:if="{{!showEmpty}}" hover-class="button-hover" class="share_button">
+    <button class="share-button" open-type="share">
+      <van-icon name="share-o" color="#FFF" size="60rpx" />
+    </button>
+  </view>
+
+  <view wx:if="{{!showEmpty}}" hover-class="button-hover" bindtap="onFavorite" class="favorite_button">
+    <van-icon name="like-o" color="#FFF" size="60rpx" />
+  </view>
+  <van-toast id="van-toast" />
+</view>

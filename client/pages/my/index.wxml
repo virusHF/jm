@@ -1,0 +1,30 @@
+<!--pages/user/user.wxml-->
+<view class="my">
+  <view class="info-panel">
+    <image src="{{avatarUrl}}" bindtap="login" class="avatar" mode="scaleToFill" />
+    <view>
+      <text class="main-text-light nick-name">{{nickName}}</text>
+      <text class="id">{{userId}}</text>
+    </view>
+  </view>
+
+  <van-cell title="收藏" is-link bindtap="onFavorite" clickable>
+    <van-icon slot="icon" name="like-o" class="icon" color="tomato" size="42rpx" />
+  </van-cell>
+  <van-cell title="分享" is-link clickable>
+    <van-icon slot="icon" name="share-o" class="icon" color="blue" size="42rpx" />
+    <button class="share-button" open-type="share" />
+  </van-cell>
+  <van-cell title="反馈" is-link bindtap="onFeedback" clickable>
+    <van-icon slot="icon" name="edit" class="icon" color="purple" size="42rpx" />
+  </van-cell>
+  <van-cell title="帮助" is-link bindtap="onHelp" clickable>
+    <van-icon slot="icon" name="smile-comment-o" class="icon" color="aqua" size="42rpx" />
+  </van-cell>
+  <van-cell title="关于" is-link bindtap="onAbout" clickable>
+    <van-icon slot="icon" name="description" class="icon" color="orange" size="42rpx" />
+  </van-cell>
+  <text class="second-text version">V1.0.0</text>
+  <van-toast id="van-toast" />
+
+</view>

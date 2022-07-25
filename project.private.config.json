@@ -1,0 +1,65 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "teamId=17453ede6067d3200076539235cbba96",
+          "scene": null
+        },
+        {
+          "name": "pages/about/index",
+          "pathName": "pages/about/index",
+          "query": "teamId=17453ede6067d3200076539235cbba96",
+          "scene": null
+        },
+        {
+          "name": "pages/help/index",
+          "pathName": "pages/help/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/feedback/index",
+          "pathName": "pages/feedback/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "history",
+          "pathName": "pages/history/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "aspect",
+          "pathName": "pages/aspect/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "add",
+          "pathName": "pages/add/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

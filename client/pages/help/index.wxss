@@ -1,0 +1,12 @@
+.content {
+  padding: 32rpx;
+}
+
+.helpPanel {
+  background: #fff;
+  padding: 16rpx;
+  border-radius: 16rpx;
+  height: 100vh;
+}
+.help {
+}
