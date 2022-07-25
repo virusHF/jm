@@ -22,6 +22,7 @@
 
 
 ## 体验小程序
+![小程序码](https://raw.githubusercontent.com/virusHF/jm/master/jm.jpg)
 
 
 ## 反馈
